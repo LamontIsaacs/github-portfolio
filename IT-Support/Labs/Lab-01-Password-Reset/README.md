@@ -13,11 +13,14 @@ Demonstrate the ability to reset a user password and unlock a locked account in 
 A user reports they are unable to log into their workstation due to multiple failed login attempts. The account is locked and requires a password reset.
 
 ## Tasks Performed
-- Identified locked user account
-- Reset user password
-- Unlocked the user account
-- Verified successful login
-- Documented steps and results
+- Simulated multiple failed login attempts on a standard user account
+- Logged in using a local administrator account to investigate the issue.
+- Verified the affected user account status using Windows administrative tools.
+- Confirmed the account required administrative intervention before access could be restored.
+- Reset user password.
+- Unlocked the user account.
+- Verified successful login.
+- Documented steps and results.
 
 ## Outcome
 Successfully restored user access by unlocking the account and resetting the password following standard IT support procedures.
