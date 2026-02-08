@@ -15,7 +15,7 @@ A user reports they are unable to log into their workstation due to multiple fai
 ## Tasks Performed
 - Simulated multiple failed login attempts on a standard user account
 - Logged in using a local administrator account to investigate the issue.
-- Verified the affected user account status using Windows administrative tools.
+- Created and managed a local standard user account using administrative command-line tools due to OS limitations.
 - Confirmed the account required administrative intervention before access could be restored.
 - Reset user password.
 - Unlocked the user account.
