@@ -32,5 +32,8 @@ Successfully restored user access by unlocking the account and resetting the pas
 - Documentation and communication
 
 ## Screenshots
-Screenshots are stored in the Screenshots folder and document each step of the process.
+
+### Screenshot 1 – Administrator Command Prompt Open
+![Administrator Command Prompt Open](../../Screenshots/01-admin-command-prompt-open.png)
+
 # Lab 01 - Pasword Reset & Account Lockout
