@@ -37,5 +37,7 @@ Successfully restored user access by unlocking the account and resetting the pas
 ![Administrator Command Prompt Open](../../Screenshots/01-admin-command-prompt-open.png)
 ### Screenshot 2 – User Account Locked
 ![User Account Locked](../../../Screenshots/02-user-account-locked.png)
+### Screenshot 3 – Password Reset Successful
+![Password Reset Successful](../../Screenshots/03-password-reset-success.png)
 
-# Lab 01 - Pasword Reset & Account Lockout
+# Lab 01 - Password Reset & Account Lockout
