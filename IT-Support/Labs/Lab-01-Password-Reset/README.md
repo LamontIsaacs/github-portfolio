@@ -39,5 +39,9 @@ Successfully restored user access by unlocking the account and resetting the pas
 ![User Account Locked](../../../Screenshots/02-user-account-locked.png)
 ### Screenshot 3 – Password Reset Successful
 ![Password Reset Successful](../../Screenshots/03-password-reset-success.png)
+### Screenshot 4 – Account Unlocked
+![Account Unlocked](../../Screenshots/04-account-unlocked.png)
+### Screenshot 5 – Successful User Login
+![Successful User Login](../../Screenshots/05-successful-login.png)
 
 # Lab 01 - Password Reset & Account Lockout
