@@ -1,27 +1,30 @@
 # Tools
 
-This section lists the tools and technologies used throughout the IT Support labs in this portfolio. These tools reflect commonly used platforms and utilities in entry-level IT support and systems administration roles.
+This section lists the tools and technologies used throughout the IT Support labs in this portfolio.  These tools reflect commonly used platforms and utilities in the entry-level IT support and systems administration roles.
 
-## 🛠️ Operating Systems
+## Operating Systems
+
 - Windows 10
 - Kali Linux
 
-## 🧰 Administrative Tools
+## Administrative Tools
+
 - Computer Management
-- Local Users and Groups
+- Local Users and Group
 - Command Prompt (Administrator)
 - Bash Shell
-- sudo (privilege escalation)
+- Sudo (privilege escalation)
 
-## 🖥️ Virtualization
+## Virtualization
+
 - VirtualBox (for running Linux virtual machines)
 
-## 🔍 Common Utilities
-- useradd / usermod
+## Common Utilities
+
+- useradd/ usermod
 - passwd
-- chmod / chown
+- chmod/ chown
 - mkdir
-- ls / id / groups
+- ls/ id groups
 
 Additional tools will be added as new labs are completed.
-
