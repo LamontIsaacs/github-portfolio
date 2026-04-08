@@ -24,16 +24,16 @@ An IT Support technician is tasked with onboarding new team members for a securi
 - Assigned secure passwords to each account.
 
 ### 2. Created a Security Group
-- Created a group ('soc_team') to represent the security operations team
+- Created a group ('security') to represent the security operations team
 - Verified group creation using system commands.
 
 ### 3. Added Users to the Group
-- Added users to the 'soc_team' group.
+- Added users to the 'security' group.
 - Verified group membership using the 'groups' command.
 
 ### 4. Created a Secure Directory
-- Created a shared directory '/soc_reports'for team use.
-- Assigned group ownership to 'soc_team.
+- Created a shared directory '/shared-security'for team use.
+- Assigned group ownership to 'security.
 
 ### 5. Configured Permissions
 - Applied '770'permissions to restrict access to authorized users only.
@@ -52,13 +52,13 @@ sudo useradd analyst2
 sudo passwd analyst1
 sudo passwd analyst2
 
-sudo groupadd soc_team
-sudo usermod -aG soc_team analyst1
-sudo usermod -aG soc_team analyst2
+sudo groupadd security
+sudo usermod -aG security analyst1
+sudo usermod -aG security analyst2
 
-sudo mkdir /soc_reports
-sudo chown :soc_team /soc_reports
-sudo chmod 770 /soc_reports
+sudo mkdir /shared-security
+sudo chown :security /shared-security
+sudo chmod 770 /shared-security
 
 ## Key Takeaways
 
@@ -73,6 +73,8 @@ sudo chmod 770 /soc_reports
 
 ## Screenshots
 
+> Screenshots demonstrate successful execution and validation of each step.
+
 ### Users Created
 ![Users Created](screenshots/01-users-created.png)
 
@@ -84,3 +86,8 @@ sudo chmod 770 /soc_reports
 
 ### Unauthorized Access Denied
 ![Denied](screenshots/08-unauthorized-access-denied.png)
+
+## 🛠️ Troubleshooting
+
+- Encountered existing user/group errors and verified using system files
+- Used `groups` and `ls -ld` to confirm permissions and ownership
