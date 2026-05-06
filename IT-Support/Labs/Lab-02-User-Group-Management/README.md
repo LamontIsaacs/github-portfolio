@@ -1,93 +1,74 @@
-# Lab 02 – User Creation & Group Permissions (Linux)
+🧾 Lab 02: User & Group Management
 
-## Objective
-Demonstrate the ability to create and manage Linux users and groups, assign permissions to directories, and enforce least-privilege access. This lab simulates common IT Support tasks related to user onboarding, access control, and permissions management.
+🎯 Objective
 
----
+Simulate a real-world IT support scenario involving user account creation, group management, and permission assignment to control access to system resources.
 
-## Tools Used
-- Kali Linux (Virtual Machine)
-- Bash Terminal
-- Administrative (sudo) privileges
+### 🛠 Tools Used
+- Linux (Kali)
+- Terminal (Bash)
+- File system permissions (chmod, chown)
+- User and group management commands
 
----
 
-## Scenario
-An IT Support technician is tasked with onboarding new team members for a security operations team. Users must be created, assigned to a group, and granted access to a shared directory while preventing unauthorized access from other users.
+📘 Scenario
 
----
+An organization requires multiple users to be created and assigned to specific groups with controlled access to shared resources. The IT Support technician must configure users, groups, and permissions while ensuring proper access control.
 
-## Tasks Performed
+### 🔧 Steps Performed
 
-### 1. Created New Users
-- Created local user accounts `analyst1`, `analyst2` using administrative privileges.
-- Assigned secure passwords to each account.
+1. Created users using command-line tools
+2. Set user passwords
+3. Created a group for access control
+4. Added users to the group
+5. Created a shared directory
+6. Configured permissions using chmod/chown
+7. Verified access using test scenarios\
 
-### 2. Created a Security Group
-- Created a group ('security') to represent the security operations team
-- Verified group creation using system commands.
+📸 Screenshots
+👤 Users Created
 
-### 3. Added Users to the Group
-- Added users to the 'security' group.
-- Verified group membership using the 'groups' command.
+🔐 Passwords Set
 
-### 4. Created a Secure Directory
-- Created a shared directory '/shared-security'for team use.
-- Assigned group ownership to 'security.
+👥 Group Created
 
-### 5. Configured Permissions
-- Applied '770'permissions to restrict access to authorized users only.
-- Ensured least- privilege access control.
+➕ Users Added to Group
 
-### 6. Verified Access Control
-- Tested file creation as an authorized user.
-- Confirmed access denial for unauthorized users.
+📁 Directory Created
 
----
+🔑 Permissions Set
 
-## Commands Used (Examples)
-```bash
-sudo useradd analyst1
-sudo useradd analyst2
-sudo passwd analyst1
-sudo passwd analyst2
+✅ Access Test
 
-sudo groupadd security
-sudo usermod -aG security analyst1
-sudo usermod -aG security analyst2
+💡 Skills Demonstrated
+User account management
+Group-based access control
+File system permissions
+Troubleshooting access issues
+IT support workflow execution
+🧠 Conclusion
 
-sudo mkdir /shared-security
-sudo chown :security /shared-security
-sudo chmod 770 /shared-security
+This lab demonstrates practical experience in managing Linux users and groups, configuring file system permissions, and enforcing access control — core responsibilities in IT support and system administration roles.
 
-## Key Takeaways
-
-- Learned how to create and manage Linux users and groups.
-- Applied least privilege access control using chmod and chown.
-- Practiced verifying permissions through real testing.
-- Gained hands-on experience with user and access management in a Linux environment.
-
-## Resume Bullet
-
-- Created and managed Linux user accounts and groups, implemented role-based access control, and configured secure directory permissions following least privilege principles.
-
-## Screenshots
+### 📸 Screenshots
 
 > Screenshots demonstrate successful execution and validation of each step.
 
-### Users Created
+#### 👤 Users Created
 ![Users Created](screenshots/01-users-created.png)
 
-### Group Membership Verified
-![Group](screenshots/04-group-membership-verified.png)
+#### 👥 Users Added to Group
+![Users Added](screenshots/04-users-added-to-group.png)
 
-### Permissions Configured
-![Permissions](screenshots/06-permissions-configured.png)
+#### 🔐 Permissions Configured
+![Permissions](screenshots/06-permissions-set.png)
 
-### Unauthorized Access Denied
-![Denied](screenshots/08-unauthorized-access-denied.png)
+#### 🧪 Access Test Successful
+![Access Test](screenshots/07-access-test.png)
 
-## 🛠️ Troubleshooting
 
-- Encountered existing user/group errors and verified using system files
-- Used `groups` and `ls -ld` to confirm permissions and ownership
+## 🛠 Troubleshooting
+
+- Encountered user/group configuration issues and resolved using command-line tools  
+- Used `groups` to verify group membership  
+- Used `ls -ld` to confirm directory permissions and ownership  
