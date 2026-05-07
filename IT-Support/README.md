@@ -24,6 +24,7 @@ Hands-on labs with step-by-step documentation and screenshots.
 
 - **Lab 01-Password Reset & Account Lockout (Windows)**
 - **Lab 02-User Creation & Group Permissions (Linux)**
+- **Lab 03-Active-Directory-Domain-Setup**
 
 See the full list in the 'Labs/' directory.
 
